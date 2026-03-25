@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero">
+        <p class="eyebrow">Conversational Starter</p>
+        <h1>AI Chatbot</h1>
+        <p>
+          A lightweight chatbot starter with a CLI mode, a web UI, and room for your
+          own data and model integrations.
+        </p>
+      </section>
+
+      <section class="chat-layout">
+        <div id="chat-box" aria-live="polite"></div>
+        <div class="composer">
+          <input
+            id="message-input"
+            type="text"
+            placeholder="Type your message..."
+            autocomplete="off"
+          />
+          <button id="send-button" type="button">Send</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>
+

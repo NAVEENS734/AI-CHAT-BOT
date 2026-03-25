@@ -1,0 +1,13 @@
+{
+  "topics": [
+    {
+      "title": "Project Purpose",
+      "content": "This starter project demonstrates how to build a simple AI chatbot with both CLI and web interfaces."
+    },
+    {
+      "title": "Customization",
+      "content": "You can extend the chatbot by improving prompts, storing long-term memory, and connecting richer retrieval systems."
+    }
+  ]
+}
+

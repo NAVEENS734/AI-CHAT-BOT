@@ -1,0 +1,2 @@
+"""AI chatbot application package."""
+
